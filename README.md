@@ -50,7 +50,7 @@ Pour enregistrer les modifications dans git :
     Author: David Andrianavalontsalama <david.andriana@avantage-compris.com>
     Date:   Tue Jul 26 06:50:33 2016 +0200
 
-        Initial import: README + CSV test files
+        Initial import: README + CSV test files + helloworld
 
 #### 3.4. Voir le détail d’une modification (différences avant/après)
 
@@ -72,7 +72,11 @@ Rappel : placer les ficiers sources Java dans `src`
 
 En ligne de commande :
 
-    > gcc -o helloworld.exe src/*.c
+    > gcc -o helloworld.exe src/helloworld.c
+
+ou encore, pour plusieurs fichiers sources :
+
+    > gcc -o cli2csv.exe src/cli2csv.c src/calcul.c src/io.c
     
 #### 4.2. Exécuter un programme compilé
 
