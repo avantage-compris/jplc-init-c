@@ -61,7 +61,6 @@ int impcsv
 
 void splitstr(char *line, double *tba_l, bool *mida_l, int *nco) {
 
-   int offset = 0;   
    char *end;
    int i;
    
